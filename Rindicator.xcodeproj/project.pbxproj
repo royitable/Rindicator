@@ -6,15 +6,39 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B00E05391F4FB9DA0069D784 /* UniversalRindicator */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B00E053A1F4FB9DA0069D784 /* Build configuration list for PBXAggregateTarget "UniversalRindicator" */;
+			buildPhases = (
+				B00E053D1F4FB9DF0069D784 /* Merge Universal Framework Run Script */,
+			);
+			dependencies = (
+			);
+			name = UniversalRindicator;
+			productName = UniversalRindicator;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		B00E05291F4FB9800069D784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00E05281F4FB9800069D784 /* AppDelegate.swift */; };
+		B00E052B1F4FB9800069D784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00E052A1F4FB9800069D784 /* ViewController.swift */; };
+		B00E052E1F4FB9800069D784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00E052C1F4FB9800069D784 /* Main.storyboard */; };
+		B00E05301F4FB9800069D784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00E052F1F4FB9800069D784 /* Assets.xcassets */; };
+		B00E05331F4FB9800069D784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00E05311F4FB9800069D784 /* LaunchScreen.storyboard */; };
 		B081B6511F4F2BB200180176 /* Rindicator.h in Headers */ = {isa = PBXBuildFile; fileRef = B081B64F1F4F2BB200180176 /* Rindicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B081B6611F4F2EBE00180176 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B081B65F1F4F2EBE00180176 /* LICENSE */; };
-		B081B6621F4F2EBE00180176 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B081B6601F4F2EBE00180176 /* README.md */; };
 		B081B6651F4F2FE700180176 /* Rindicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B081B6641F4F2FE700180176 /* Rindicator.swift */; };
-		B081B6681F4F306A00180176 /* Rindicator.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B081B6671F4F306A00180176 /* Rindicator.podspec */; };
+		B0C0E73B1F4FBD16007243DC /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0E73A1F4FBD16007243DC /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B00E05261F4FB9800069D784 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00E05281F4FB9800069D784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B00E052A1F4FB9800069D784 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B00E052D1F4FB9800069D784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B00E052F1F4FB9800069D784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00E05321F4FB9800069D784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B00E05341F4FB9800069D784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B081B64C1F4F2BB200180176 /* Rindicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rindicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B081B64F1F4F2BB200180176 /* Rindicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rindicator.h; sourceTree = "<group>"; };
 		B081B6501F4F2BB200180176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -22,9 +46,17 @@
 		B081B6601F4F2EBE00180176 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B081B6641F4F2FE700180176 /* Rindicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rindicator.swift; sourceTree = "<group>"; };
 		B081B6671F4F306A00180176 /* Rindicator.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rindicator.podspec; sourceTree = "<group>"; };
+		B0C0E73A1F4FBD16007243DC /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B00E05231F4FB9800069D784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B081B6481F4F2BB200180176 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,12 +67,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B00E05271F4FB9800069D784 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B00E05281F4FB9800069D784 /* AppDelegate.swift */,
+				B00E052A1F4FB9800069D784 /* ViewController.swift */,
+				B00E052C1F4FB9800069D784 /* Main.storyboard */,
+				B00E052F1F4FB9800069D784 /* Assets.xcassets */,
+				B00E05311F4FB9800069D784 /* LaunchScreen.storyboard */,
+				B00E05341F4FB9800069D784 /* Info.plist */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		B081B6421F4F2BB200180176 = {
 			isa = PBXGroup;
 			children = (
 				B081B6661F4F305600180176 /* Deployment */,
 				B081B65E1F4F2EA800180176 /* Documentation */,
 				B081B6571F4F2C6100180176 /* Source */,
+				B00E05271F4FB9800069D784 /* Demo */,
 				B081B64D1F4F2BB200180176 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				B081B64C1F4F2BB200180176 /* Rindicator.framework */,
+				B00E05261F4FB9800069D784 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +105,7 @@
 			children = (
 				B081B6641F4F2FE700180176 /* Rindicator.swift */,
 				B081B6591F4F2CC400180176 /* Supporting files */,
+				B0C0E73A1F4FBD16007243DC /* Test.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -102,6 +150,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		B00E05251F4FB9800069D784 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00E05351F4FB9800069D784 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				B00E05221F4FB9800069D784 /* Sources */,
+				B00E05231F4FB9800069D784 /* Frameworks */,
+				B00E05241F4FB9800069D784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = B00E05261F4FB9800069D784 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B081B64B1F4F2BB200180176 /* Rindicator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B081B6541F4F2BB200180176 /* Build configuration list for PBXNativeTarget "Rindicator" */;
@@ -110,6 +175,8 @@
 				B081B6481F4F2BB200180176 /* Frameworks */,
 				B081B6491F4F2BB200180176 /* Headers */,
 				B081B64A1F4F2BB200180176 /* Resources */,
+				B00E051F1F4FB6700069D784 /* Remove Unused Architectures Script */,
+				B00E05381F4FB99B0069D784 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,9 +193,18 @@
 		B081B6431F4F2BB200180176 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Royite;
 				TargetAttributes = {
+					B00E05251F4FB9800069D784 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					B00E05391F4FB9DA0069D784 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					B081B64B1F4F2BB200180176 = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 0900;
@@ -142,6 +218,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B081B6421F4F2BB200180176;
 			productRefGroup = B081B64D1F4F2BB200180176 /* Products */;
@@ -149,35 +226,165 @@
 			projectRoot = "";
 			targets = (
 				B081B64B1F4F2BB200180176 /* Rindicator */,
+				B00E05251F4FB9800069D784 /* Demo */,
+				B00E05391F4FB9DA0069D784 /* UniversalRindicator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B00E05241F4FB9800069D784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00E05331F4FB9800069D784 /* LaunchScreen.storyboard in Resources */,
+				B00E05301F4FB9800069D784 /* Assets.xcassets in Resources */,
+				B00E052E1F4FB9800069D784 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B081B64A1F4F2BB200180176 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B081B6681F4F306A00180176 /* Rindicator.podspec in Resources */,
-				B081B6621F4F2EBE00180176 /* README.md in Resources */,
-				B081B6611F4F2EBE00180176 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B00E051F1F4FB6700069D784 /* Remove Unused Architectures Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Remove Unused Architectures Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		B00E05381F4FB99B0069D784 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		B00E053D1F4FB9DF0069D784 /* Merge Universal Framework Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Merge Universal Framework Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Next, work out if we're in SIM or DEVICE\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nBUILD_PRODUCTS=\"${SYMROOT}/../../../../Products\"\ncp -R \"${BUILD_PRODUCTS}/Debug-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_PRODUCTS}/Debug-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		B00E05221F4FB9800069D784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00E052B1F4FB9800069D784 /* ViewController.swift in Sources */,
+				B00E05291F4FB9800069D784 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B081B6471F4F2BB200180176 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B081B6651F4F2FE700180176 /* Rindicator.swift in Sources */,
+				B0C0E73B1F4FBD16007243DC /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		B00E052C1F4FB9800069D784 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00E052D1F4FB9800069D784 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B00E05311F4FB9800069D784 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00E05321F4FB9800069D784 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		B00E05361F4FB9800069D784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HLDMS4HSVA;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.royite.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B00E05371F4FB9800069D784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HLDMS4HSVA;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.royite.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B00E053B1F4FB9DA0069D784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HLDMS4HSVA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B00E053C1F4FB9DA0069D784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HLDMS4HSVA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B081B6521F4F2BB200180176 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -227,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -281,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -339,6 +546,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B00E05351F4FB9800069D784 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00E05361F4FB9800069D784 /* Debug */,
+				B00E05371F4FB9800069D784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00E053A1F4FB9DA0069D784 /* Build configuration list for PBXAggregateTarget "UniversalRindicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00E053B1F4FB9DA0069D784 /* Debug */,
+				B00E053C1F4FB9DA0069D784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B081B6461F4F2BB200180176 /* Build configuration list for PBXProject "Rindicator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
