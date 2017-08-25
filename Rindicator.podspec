@@ -11,14 +11,14 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "Rindicator"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A swift ios hud."
 
   s.description  = <<-DESC
     my first framework shared
                    DESC
 
-  s.homepage     = "https://github.com/royitable/Rindicator"
+  s.homepage     = "https://github.com/Roible/Rindicator"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/royitable/Rindicator.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/Roible/Rindicator.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
