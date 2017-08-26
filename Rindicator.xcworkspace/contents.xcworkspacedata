@@ -4,4 +4,11 @@
    <FileRef
       location = "container:Rindicator.xcodeproj">
    </FileRef>
+   <Group
+      location = "container:"
+      name = "Playground">
+      <FileRef
+         location = "group:RindicatorPlayground.playground">
+      </FileRef>
+   </Group>
 </Workspace>

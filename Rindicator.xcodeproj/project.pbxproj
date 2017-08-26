@@ -28,6 +28,7 @@
 		B00E05331F4FB9800069D784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00E05311F4FB9800069D784 /* LaunchScreen.storyboard */; };
 		B081B6511F4F2BB200180176 /* Rindicator.h in Headers */ = {isa = PBXBuildFile; fileRef = B081B64F1F4F2BB200180176 /* Rindicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B081B6651F4F2FE700180176 /* Rindicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B081B6641F4F2FE700180176 /* Rindicator.swift */; };
+		B0C0E7421F501326007243DC /* ParkPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0E7411F501326007243DC /* ParkPay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		B081B6601F4F2EBE00180176 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B081B6641F4F2FE700180176 /* Rindicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rindicator.swift; sourceTree = "<group>"; };
 		B081B6671F4F306A00180176 /* Rindicator.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rindicator.podspec; sourceTree = "<group>"; };
+		B0C0E7411F501326007243DC /* ParkPay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				B00E052F1F4FB9800069D784 /* Assets.xcassets */,
 				B00E05311F4FB9800069D784 /* LaunchScreen.storyboard */,
 				B00E05341F4FB9800069D784 /* Info.plist */,
+				B0C0E7411F501326007243DC /* ParkPay.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				B00E052B1F4FB9800069D784 /* ViewController.swift in Sources */,
 				B00E05291F4FB9800069D784 /* AppDelegate.swift in Sources */,
+				B0C0E7421F501326007243DC /* ParkPay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
